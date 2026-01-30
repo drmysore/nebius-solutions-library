@@ -341,3 +341,9 @@ variable "gpu_health_cheker" {
   type        = bool
   default     = true
 }
+
+variable "enable_opa_gatekeeper" {
+  description = "Enable OPA Gatekeeper"
+  type        = bool
+  default     = false
+}

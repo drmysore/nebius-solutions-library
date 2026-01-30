@@ -72,3 +72,6 @@ enable_kuberay_service = false
 
 # NPD nebius-gpu-health-checker helm install
 gpu_health_cheker = false
+
+# enable OPA gatekeeper (default: false)
+# enable_opa_gatekeeper = true 
